@@ -1,43 +1,53 @@
-body {
-    background: #0f1b0f;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: "Bai Jamjuree", sans-serif;
 }
 
-.container {
-    max-width: 600px;
-    margin: 40px auto;
+body {
+    background-color: #f2f2f2;
     padding: 20px;
-    background: #1a2a1a;
-    border-radius: 8px;
-    box-shadow: 0 0 10px #000;
 }
 
-h1 {
-    text-align: center;
-    margin-bottom: 20px;
+main {
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0003;
 }
 
 .passo {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
+    display: none;
+    text-align: center;
 }
 
-.opcoes button {
+.passo.ativo {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+button {
+    display: block;
     width: 100%;
-    margin: 8px 0;
     padding: 12px;
-    font-size: 1rem;
+    margin: 8px 0;
     border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    background: #2f4f2f;
+    border-radius: 8px;
+    background-color: #4a8bdf;
     color: white;
-    transition: 0.2s;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-.opcoes button:hover {
-    background: #3e6b3e;
+button:hover {
+    background-color: #346cb5;
 }
