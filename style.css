@@ -1,0 +1,43 @@
+body {
+    background: #0f1b0f;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #1a2a1a;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #000;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.passo {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.opcoes button {
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #2f4f2f;
+    color: white;
+    transition: 0.2s;
+}
+
+.opcoes button:hover {
+    background: #3e6b3e;
+}
