@@ -3,20 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A Floresta das 3 Rotas</title>
     <link rel="stylesheet" href="style.css">
+    <title>A Ilha Misteriosa</title>
 </head>
 <body>
-    <main class="container">
-        <h1>A Floresta das 3 Rotas</h1>
+    <main>
 
-        <div id="passo" class="passo">
-            <!-- Conteúdo gerado pelo JS -->
+        <div class="passo ativo" id="passo-0">
+            <img src="img/passo0.png" alt="Você chegando em uma ilha misteriosa ao amanhecer">
+            <p>Após uma forte tempestade, você acorda em uma praia desconhecida. Sua mochila está molhada, mas intacta. A ilha parece silenciosa demais.</p>
+            <button class="btn-proximo" data-proximo="1">Entrar na floresta</button>
+            <button class="btn-proximo" data-proximo="2">Explorar a praia</button>
         </div>
 
-        <div id="opcoes" class="opcoes">
-            <!-- Botões das escolhas -->
+        <div class="passo" id="passo-1">
+            <img src="img/passo1.png" alt="">
+            <p>Dentro da floresta, você encontra pegadas estranhas levando para duas direções.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir as pegadas</button>
+            <button class="btn-proximo" data-proximo="4">Ignorar e explorar outra trilha</button>
         </div>
+
+        <div class="passo" id="passo-2">
+            <img src="img/passo2.png" alt="">
+            <p>Na praia, você encontra um barco quebrado e um baú parcialmente enterrado na areia.</p>
+            <button class="btn-proximo" data-proximo="5">Abrir o baú</button>
+            <button class="btn-proximo" data-proximo="6">Examinar o barco</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>As pegadas levam até uma caverna iluminada por cristais brilhantes.</p>
+            <button class="btn-proximo" data-proximo="7">Entrar na caverna</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>A trilha leva a uma clareira com ruínas antigas cobertas por musgo.</p>
+            <button class="btn-proximo" data-proximo="8">Investigar as ruínas</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Dentro do baú há um mapa mostrando o centro da ilha com um símbolo misterioso.</p>
+            <button class="btn-proximo" data-proximo="3">Ir até o local indicado</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>O barco está muito danificado, mas você encontra um pequeno diário molhado.</p>
+            <button class="btn-proximo" data-proximo="9">Ler o diário</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>A caverna revela uma enorme sala subterrânea com pinturas antigas contando a história da ilha.</p>
+            <button class="btn-proximo" data-proximo="10">Explorar mais fundo</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>As ruínas escondem uma passagem secreta que leva ao coração da ilha.</p>
+            <button class="btn-proximo" data-proximo="10">Seguir pela passagem</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O diário fala de um guardião antigo que protege um tesouro escondido.</p>
+            <button class="btn-proximo" data-proximo="10">Procurar o guardião</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="img/passo10.png" alt="">
+            <p>No centro da ilha, você encontra o guardião espiritual que revela um segredo ancestral. Você decide proteger a ilha e seus mistérios. Fim!</p>
+        </div>
+
     </main>
 
     <script src="script.js"></script>
